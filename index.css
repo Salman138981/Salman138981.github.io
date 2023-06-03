@@ -1,9 +1,0 @@
-#nav-menu{
-        
-}
-
-#nav_menu>div:nth-child(2){
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-}
