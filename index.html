@@ -204,12 +204,124 @@
                             </div>
                         </div>
                     </div>
+                  
+                    <!-- project 4  java backend-->
+                    <div class ="project">
+                        <div class="project-card">
+                            <div id=" firstprojectdiv">
+                                <img src="./images/shopworld.png" alt="shopworld">
+            
+                            </div>
+                            <div>
+                                <h1 class="project-title" style="color:white;">ShopWorld</h1>
+                                <p class="Project-description">
+                                    ShopWorld is an online shopping application.It provides a platform for users to browse and purchase products online conveniently
+                                </p>
+                                <p class="project-tech-stack">
+                                    Tech Stack used : <span>Java | Hibernate | MySql</span>
+                                </p>
+                                <div class="repo-links">
+                                    <div class="project-github-link">
+                                        <span> <a href="https://github.com/Salman138981/Online-Shopping-Application-ShopWorld" target="_blank">Git Repo</a></span>
+                                    </div>
+                                    <div class="project-deployed-link">
+                                        <span><a href="https://mega.nz/file/78dgSRSS#e5pqDPEsBONk4g2RkzT63G5g1Kw-s8QOi9GU2_nases" target="_blank">Live</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- project 5 java backend  -->
+                    <div class ="project">
+                        <div class="project-card">
+                            <div id=" firstprojectdiv">
+                                <img src="./images/FoodJet.PNG" alt="shopworld">
+            
+                            </div>
+                            <div>
+                                <h1 class="project-title" style="color:white;">FoodJet</h1>
+                                <p class="Project-description">
+                                    FoodJet offers a convenient and user-friendly interface where customers can browse through various restaurants, explore menus, and place orders for delivery or pickup
+                                </p>
+                                <p class="project-tech-stack">
+                                    Tech Stack used : <span>Java | Spring Framework | Spring Boot | Hibernate | MySQL</span>
+                                </p>
+                                <div class="repo-links">
+                                    <div class="project-github-link">
+                                        <span> <a href="https://github.com/Salman138981/FoodJet" target="_blank">Git Repo</a></span>
+                                    </div>
+                                    <div class="project-deployed-link">
+                                        <span><a href="https://foodjet.netlify.app/" target="_blank">Live</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
            
         </div>
     </section>
 
+    <!-- GitHub ------------------------------------>
+    <section class="github-activity-calendar">
+        <h1>GITHUB STATISTIC</h1>
+        <div class="github">
+            <div>
+                <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Salman138981&" alt="SalmanKhan">
+            </div>
+            <div>
+                <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs?username=Salman138981&show_icons=true&locale=en&layout=compact"
+                    alt="top_languages" />
+            </div>
+            <div>
+                <img id="github-stats-card"
+                    src="https://github-readme-stats.vercel.app/api?username=Salman138981&show_icons=true&locale=en"
+                    alt="SalmanKhan" />
+            </div>
+        </div>
+        <h1>GITHUB CALENDER</h1>
+        <div>
+            <div class="calendar react-activity-calendar"></div>
+            <link rel="stylesheet"
+                href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+            <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+            <script>
+                GitHubCalendar(".calendar", "Salman138981");
+                GitHubCalendar(".calendar", "Salman138981", { responsive: true });
+            </script>
+        </div>
+    </section>
+
+    <!-- Contatcs---------------------- -->
+    <section id="contact">
+        <div>
+            <h1>CONTACT</h1>
+            <p id="contact-phone">Contact Number - +91-9022998239</p>
+            <p id="contact-email">Email Address - sk752547@gmail.com</p>
+            <p>Address - Mumbai, Maharashtra</p>
+            <div>
+                <h1 id="contact-github" onclick="git()"><i class="bi bi-github"></i></h1>
+                <h1 id="contact-linkedin" onclick="linkedin()"><i class="bi bi-linkedin"></i></h1>
+                <h1 onclick="email()"><i class="bi bi-envelope-fill"></i></h1>
+            </div>
+        </div>
+    </section> 
+
 
 </body>
 </html>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script src="index.js"></script>
+<script>
+    function git() {
+        window.location.href = "https://github.com/Salman138981";
+    }
+    function linkedin() {
+        window.location.href = "https://www.linkedin.com/in/salman-khan-319179211/";
+    }
+    function email() {
+        window.location.href = "mailto:sk752547@gmail.com";
+    }
+
+
+</script>
