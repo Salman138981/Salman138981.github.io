@@ -9,7 +9,7 @@ body {
     background-color:white;
 }
 
-#nav-menu {
+/* #nav-menu {
 
     background-color: #0d536e;
     padding: 18px 10%;
@@ -30,8 +30,76 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
+} */
+#nav-menu {
+    background-color: #0d536e;
+    padding: 18px 10%;
+    height: 40px;
+    border: 2px solid RGB(35, 40, 62);
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Hamburger Icon Styles */
+.hamburger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-icon span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: flex;
+    }
+
+    #sidemenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #0d536e;
+        padding: 10px 0;
+    }
+
+    #sidemenu.open {
+        display: block;
+    }
+
+    #sidemenu li {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #sidemenu li:last-child {
+        margin-bottom: 0;
+    }
+
+    #sidemenu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
 /* ============= */
 
 
@@ -190,6 +258,7 @@ nav .fas {
 
 #home .max-width {
     padding-top: 8%;
+    
     width: 100%;
     display: flex;
 }
@@ -230,7 +299,7 @@ nav .fas {
 
 .home-content {
     width: 80%;
-    margin: auto;
+     margin: auto;
     justify-content: space-between;
     margin-top: 100px;
 }
@@ -278,15 +347,16 @@ nav .fas {
 #about {
 
     /* margin: auto; */
+    margin-top: -150px;
     width: 100%;
     height: auto;
-    padding-bottom: 20px;
-    margin-bottom: 15%;
+    padding-bottom: 80px;
+    /* margin-bottom: 15%; */
     background-color:whitesmoke;
 }
 
 #about h1 {
-    padding-top: 20%;
+    padding-top: 5%;
    
     text-align: center;
     font-size: 40px;
@@ -318,12 +388,13 @@ nav .fas {
 
 /* ..............................Skill Section......................... */
 #skills h1 {
-    padding-top: 10%;
+    padding-top: 7%;
     color: #0a3d52;
     text-align: center;
     font-size: 40px;
     margin-bottom: 4%;
     padding-bottom: 5%;
+    
 }
 
 .skill {
@@ -377,12 +448,16 @@ nav .fas {
 
 #projects{
     background-color:whitesmoke;
+    padding-bottom: 5%;
 }
 .project {
-    width: 70%;
+    width: 60%;
     display: block;
     margin: auto;
     background-color:rgb(187, 41, 41);
+    /* padding-right:20px; */
+    
+    border-radius: 5%;
 }
 
 #project-heading{
@@ -500,7 +575,7 @@ nav .fas {
     text-align: center;
     font-size: 40px;
     margin-bottom: 3%;
-    color: white;
+    color: blue;
     padding-top: 30px;
 }
 

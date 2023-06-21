@@ -36,22 +36,24 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('#about h1', { delay: 200})
-sr.reveal('.home-img', { delay: 600 })
-sr.reveal('#user-detail-intro', { delay: 600 })
-sr.reveal('.skill', { delay: 200 })
+sr.reveal('#about h1', { delay: 50})
+sr.reveal('.home-img', { delay: 50 })
+sr.reveal('#user-detail-intro', { delay: 50 })
+sr.reveal('.skill', { delay: 50 })
 
 sr.reveal('.project', {})
-sr.reveal('.project-card img', { delay: 100 })
-sr.reveal('.project-title', { delay: 200 })
-sr.reveal('.project-description', { delay: 200 })
-sr.reveal('.project-tech-stack', { delay: 200 })
-sr.reveal('.repo-links', { delay: 200 })
+sr.reveal('.project-card img', { delay: 50 })
+sr.reveal('.project-title', { delay: 50 })
+sr.reveal('.project-description', { delay: 50 })
+sr.reveal('.project-tech-stack', { delay: 50 })
+sr.reveal('.repo-links', { delay: 50 })
 
-sr.reveal('#github-streak-stats', { delay: 200 })
-sr.reveal('#github-top-langs', { delay: 400 })
-sr.reveal('#github-stats-card', { delay: 600 })
+sr.reveal('#github-streak-stats', { delay: 50 })
+sr.reveal('#github-top-langs', { delay: 50 })
+sr.reveal('#github-stats-card', { delay: 50 })
 
- sr.reveal('.calendar', { delay: 600 })
+ sr.reveal('.calendar', { delay: 50 })
 
-
+ document.querySelector('.hamburger-icon').addEventListener('click', function() {
+    document.getElementById('sidemenu').classList.toggle('open');
+});
