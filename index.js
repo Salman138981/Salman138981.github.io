@@ -21,12 +21,12 @@ var typed = new Typed(".typing", {
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://mega.nz/file/yxdmDbiL#VAkcKalz0NmMg49f-hzVh-nElAuf9Q8wDoC8fx8QAic", "_blank");
+    window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://mega.nz/file/yxdmDbiL#VAkcKalz0NmMg49f-hzVh-nElAuf9Q8wDoC8fx8QAic", "_blank");
+    window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
 })
 
 const sr = ScrollReveal({
