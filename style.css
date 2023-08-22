@@ -68,7 +68,7 @@ nav {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 925px) {
     .hamburger-icon {
         display: flex;
     }
@@ -385,7 +385,7 @@ nav .fas {
   }
   
   /* Mobile Screen Styles */
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 400px) {
     #home .home-content .text-1 {
       font-size: 24px;
     }
@@ -742,7 +742,7 @@ nav .fas {
 
     #home {
         height: auto;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
 
@@ -777,7 +777,7 @@ nav .fas {
 
 
 
-@media screen and (min-width: 200px) and (max-width:820px) {
+@media screen  and (max-width:820px) {
 
     .home-content {
         display: block;
@@ -896,7 +896,7 @@ nav .fas {
 }
 
 
-@media screen and (min-width: 280px) and (max-width:653px) {
+@media screen  and (max-width:653px) {
 
 
     #home {

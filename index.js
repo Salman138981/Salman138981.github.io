@@ -21,17 +21,23 @@ var typed = new Typed(".typing", {
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
+   // window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
+    window.open(
+        (href= "https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link")
+    );
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
+    //window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
+    window.open(
+        (href= "https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link")
+    );
 })
 
 const sr = ScrollReveal({
     origin: 'left',
-    distance: '120px',
+    distance: '0px',
     duration: 2000,
     reset: true
 })
