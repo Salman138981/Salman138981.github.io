@@ -35,7 +35,7 @@ nav {
     background-color: #FF5200;
     padding: 18px 10%;
     height: 40px;
-    border: 2px solid RGB(35, 40, 62);
+    border: 2px solid RGB(35, 40, 62); 
 }
 
 nav {
@@ -385,9 +385,23 @@ nav .fas {
   }
   
   /* Mobile Screen Styles */
-  @media only screen and (max-width: 400px) {
+  @media all and (max-width: 480px) {
+
+    #nav-menu {
+        
+        border: none; 
+    }
+
+    #home .max-width{
+        padding-top: 1%;
+        width:100%;
+        display:block;
+       
+    }
+
     #home .home-content .text-1 {
       font-size: 24px;
+      margin-top:0;
     }
     
     #home .home-content .text-2 {
@@ -413,6 +427,11 @@ nav .fas {
       font-size: 18px;
       padding: 8px 24px;
       margin-top: 16px;
+    }
+    #about .about-section1>div>img {
+        width: 100%;
+        border-radius: 40%;
+        
     }
   }
   
