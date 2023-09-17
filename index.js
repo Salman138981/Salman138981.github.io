@@ -23,7 +23,7 @@ document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
    // window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
     window.open(
-        (href= "https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link")
+        (href= "https://drive.google.com/file/d/1A2d4I5kF7IFP8S6IN-ZSORRJBs5Izysp/view")
     );
 })
 
@@ -31,7 +31,7 @@ document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
     //window.location.assign("https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link", "_blank");
     window.open(
-        (href= "https://drive.google.com/file/d/1vgOhH9mlzxn8doT0WA3ZkXD8IDcvi3Ed/view?usp=drive_link")
+        (href= "https://drive.google.com/file/d/1A2d4I5kF7IFP8S6IN-ZSORRJBs5Izysp/view")
     );
 })
 
